@@ -73,7 +73,7 @@ theme.set_highlights = function()
 	hl(0, "DiagnosticHint", { fg = c.cyan, bg = "NONE" })
 
 	-- Treesitter
-	hl(0, "variable", { fg = c.fg, bg = "NONE" })
+	hl(0, "variable", { fg = c.yellow, bg = "NONE" })
 	hl(0, "function", { fg = c.blue, bg = "NONE" })
 	hl(0, "function_builtin", { fg = c.cyan, bg = "NONE" })
 	hl(0, "parameter", { fg = c.fg, bg = "NONE" })
